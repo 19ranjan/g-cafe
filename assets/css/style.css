@@ -350,7 +350,7 @@ body.nav-active { overflow: hidden; }
 }
 
 .section-subtitle::after {
-  content: url('../images/separator.svg');
+  /* content: url('../images/separater.png'); */
   display: block;
   width: 100px;
   margin-inline: auto;
@@ -1201,8 +1201,9 @@ body.nav-active { overflow: hidden; }
   #RESERVATION
 \*-----------------------------------*/
 
-.reservation-form { margin-block-start: -270px; }
-
+.reservation-form { margin-block-start: 30px;
+/* top:30px;  */
+}
 .form-text { margin-block-end: 40px; }
 
 .form-text .link {
